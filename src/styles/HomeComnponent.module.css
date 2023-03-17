@@ -1,0 +1,11 @@
+.currencyModalHold {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    gap: 1rem;
+    height: 8.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgb(0 0 0/6%);
+
+}

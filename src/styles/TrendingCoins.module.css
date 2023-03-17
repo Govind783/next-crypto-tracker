@@ -1,0 +1,13 @@
+.trendingHold {
+    width: 40rem;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media(max-width : 600px) {
+    .trendingHold {
+        margin-left: 3rem;
+
+    }
+}

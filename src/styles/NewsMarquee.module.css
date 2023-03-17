@@ -1,0 +1,24 @@
+.newsMarqueeMainParent {
+    width: 30rem;
+    display: flex;
+    border-radius: 8px;
+    flex-direction: column;
+    margin-left: 2rem;
+    gap: 2.8rem;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .1), 0 1px 1px 0 rgb(0 0 0/1%);
+    margin-left: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 100%;
+    padding-bottom: 2rem;
+}
+
+@media(max-width :600px) {
+
+    .newsMarqueeMainParent {
+        margin-left: 0.9rem;
+        margin-right: 0.9rem;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
