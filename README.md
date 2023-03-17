@@ -1,7 +1,7 @@
 
 Submission for zapit project built with next js, typescript and tailwind
 
--I improvised the ui a lot made it much more attractive and added many features. 
+- I improvised the ui a lot made it much more attractive and added many features. 
 -Added a news section. And upon clicking on an article the user is redirected to the article link 
 -Top 10 coins section
 -Pagination with 4 pages
