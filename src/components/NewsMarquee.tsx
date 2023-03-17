@@ -21,19 +21,14 @@ const NewsMarquee = () => {
     useEffect(() => {
         // ist 
         const fetchData = async () => {
-            //const response = await axios.get(`https://newsapi.org/v2/everything?q=crypto&sortBy=publishedAt&apiKey=${process.env.NEWS_API_KEY}&pageSize=20`);
             const newsApiKey = process.env.NEWS_API_KEY;
-            const response = await axios.get(`https://newsapi.org/v2/everything?q=crypto&sortBy=publishedAt&apiKey=7a8d9250409c45bab900e0c29de85a0d&pageSize=20`);
-
-
+            const response = await axios.get(`https://newsapi.org/v2/everything?q=crypto&sortBy=publishedAt&apiKey=${process.env.NEWS_API_KEY}&pageSize=20`);
             const filteredArticles = response.data.articles.filter((article: Article) => article.urlToImage !== null);
             setArticles(filteredArticles);
         };
         fetchData();
 
-        //2nd
-
-
+     
 
 
     }, []);
