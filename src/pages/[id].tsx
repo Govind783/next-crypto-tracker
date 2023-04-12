@@ -5,7 +5,7 @@ import CoinDetailHero from '@/components/CoinDetailPageComponents/CoinDetailHero
 import Footer from '@/components/HomePageComponents/Footer';
 import CoinDetailChart from '@/components/CoinDetailPageComponents/CoinDetailChart';
 
-const coindetail = () => {
+const Coindetail = () => {
 
   const router = useRouter();
   const coinName = router.query.id;
@@ -36,7 +36,7 @@ const coindetail = () => {
   )
 }
 
-export default coindetail
+export default Coindetail
 
 /**
    <div className="coinDetailTagsHold flex flex-col w40Percent items-center">

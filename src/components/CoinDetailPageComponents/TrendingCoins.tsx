@@ -83,7 +83,7 @@ const TrendingCoins = () => {
 
                     <Link href={`/${item.id}`}>
                       <div className='trendingUpper-1 flex items-center gap-2'>
-                        <img src={item.image} className="w-10 h-10" />
+                        <img src={item.image} className="w-10 h-10" alt='ada' />
                         <p className='font-semibold uppercase'> {item.symbol.substring(0, 8)} </p>
                         <p className='bg-gray-100 whitespace-nowrap capitalize rounded font-normal w-auto pr-2 pl-2 h-7'> {item.id.toString().substring(0, 11)} </p>
                       </div>

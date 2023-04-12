@@ -138,7 +138,7 @@ const CoinDetailHero = (props: any) => {
 
     useEffect(() => {
         fetchDataHandler();
-    }, [])
+    }, [fetchDataHandler])
 
 
 
@@ -165,7 +165,7 @@ const CoinDetailHero = (props: any) => {
 
                         <div className="coinDetailParentOne mb-9 md:mb-0">
                             <div className='flex items-center gap-6'>
-                                {<img src={coinDetailData.image.large} className=' md:w-28 w-24 rounded-full boxsh2' />}
+                                {<img src={coinDetailData.image.large} className=' md:w-28 w-24 rounded-full boxsh2' alt='ada' />}
                                 <div className="flex flex-col gap-8 items-center -ml-4">
                                     <p className=' font-normal text-xl uppercase'> {coinDetailData.id} <span className=' text-gray-400 font-normal text-sm relative -top-4'> #{coinDetailData.market_cap_rank} </span> </p>
                                     <p className=' font-semibold text-2xl'> ${coinDetailData.market_data.current_price.usd.toLocaleString()}

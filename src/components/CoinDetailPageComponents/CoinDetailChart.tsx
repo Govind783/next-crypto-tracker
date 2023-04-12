@@ -142,7 +142,7 @@ const CoinDetailChart = (props: any) => {
 
     useEffect(() => {
         fetchDataHandler();
-    }, [props.cryptoName])
+    }, [props.cryptoName, fetchDataHandler])
 
 
     return (

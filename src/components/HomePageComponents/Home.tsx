@@ -376,7 +376,7 @@ const HomeComnponent = () => {
                                     </th>
                                     <td className='py-6 cursor-pointer'>
                                         <Link href={`/${coin.id}`}>
-                                            <img src={coin.image} className="sm:w-12 sm:h-12 w-9 h-9 inline-block mr-2" />
+                                            <img src={coin.image} className="sm:w-12 sm:h-12 w-9 h-9 inline-block mr-2" alt="ada" />
                                             <span className='font-semibold inline-block align-middle uppercase sm:text-base text-sm mr-4'>{coin.id.substring(0, 18)}</span>
                                         </Link>
                                     </td>
@@ -441,7 +441,7 @@ const HomeComnponent = () => {
                                             {reduxFavouritesARR.length === 0 ? <p> Nothing Here Yet </p> :
                                                 <>
                                                     <div className='flex gap-2 items-center'>
-                                                        <img src={item.image} className="w-12 h-12" />
+                                                        <img src={item.image} className="w-12 h-12" alt='ada' />
                                                         <div className='flex flex-col'>
                                                             <p className='font-semibold text-sm sm:text-base uppercase'> {item.name} </p>
 
