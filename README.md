@@ -23,6 +23,60 @@ with the home page and coin detail page.
 - tailwind for styling
 - and yes fully responsive
 
+Image preview, Home page => 
+
+![Homepage](https://live.staticflickr.com/65535/52813460063_a22921bda4_c.jpg)
+
+
+![Homepage](https://live.staticflickr.com/65535/52813419025_600b477df8_z.jpg)
+
+
+![Homepage](https://live.staticflickr.com/65535/52813202794_68d51603b0_z.jpg)
+
+
+![Homepage](https://live.staticflickr.com/65535/52813202834_6c17b90501_z.jpg)
+
+
+![Homepage](https://live.staticflickr.com/65535/52813419115_46b10d308e_z.jpg)
+
+
+![Homepage](https://live.staticflickr.com/65535/52812449907_99bae25ee5_z.jpg)
+
+
+![Homepage](https://live.staticflickr.com/65535/52813202904_10e3083c1e_c.jpg)
+
+
+![Homepage](https://live.staticflickr.com/65535/52813006546_760151c627_w.jpg)
+
+
+![Homepage](https://live.staticflickr.com/65535/52813006561_eb0cd28801_w.jpg)
+
+
+Coin Deatil Page =>
+
+![Homepage](https://live.staticflickr.com/65535/52812450032_f2875bfaeb_z.jpg)
+
+
+![Homepage](https://live.staticflickr.com/65535/52812450052_157e532dd4_z.jpg)
+
+
+![Homepage](https://live.staticflickr.com/65535/52813419295_4c9db18f5b_z.jpg)
+
+
+![Homepage](https://live.staticflickr.com/65535/52813203089_6b7ab1b87d_z.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
