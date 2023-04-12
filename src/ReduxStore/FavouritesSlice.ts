@@ -1,14 +1,25 @@
 import { configureStore } from "@reduxjs/toolkit";
 import { createSlice } from "@reduxjs/toolkit";
 
+
+  
+
+type CryptoCoin = {
+  id: string; 
+  price: number; 
+  image: string; 
+  name: string; 
+};
+
 const favouriteSlice = createSlice({
     name: "favourites",
-    initialState: { list: [] },
+   // initialState: { list: [] },
+   initialState: { list: [] as CryptoCoin[] }, // specify the type of the array as CryptoCoin[]
+
     reducers: {
         addToFavourites(state, action) {
             const newItem = action.payload;
             const existingItem = state.list.find((item) => item.id === newItem.id);
-            state.totalQuantity++;
 
             if (!existingItem) {
                 state.list.push({

@@ -2,23 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
 * {
   max-width: 100% !important;
   box-sizing: border-box;
 }
 
+.poppinsFont {
+  font-family: 'Poppins', sans-serif;
+}
+
+.interFont {
+  font-family: 'Poppins', sans-serif;
+
+}
+
 body {
   margin: 0;
+
 }
+
 
 img {
   height: auto;
 }
 
-.navbar {
-  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgb(0 0 0/6%);
-  height: 5rem;
-  margin-bottom: 3rem;
+.navbarr {
+  height: 6rem;
+  margin-bottom: 0.01rem;
+  background-color: rgb(255, 255, 255);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.14));
+
 }
 
 html,
@@ -30,6 +46,11 @@ body {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgb(0 0 0/3%);
 }
 
+.boxshDark {
+  -webkit-box-shadow: 3px 2px 0px 4px rgba(26, 23, 26, 1);
+  -moz-box-shadow: 3px 2px 0px 4px rgba(26, 23, 26, 1);
+  box-shadow: 3px 2px 0px 4px rgba(26, 23, 26, 1);
+}
 
 
 .newsMarqueeMainParent::-webkit-scrollbar {
@@ -55,9 +76,7 @@ body {
   transition: all ease 300ms;
 }
 
-.w45rem {
-  width: 43.5rem;
-}
+
 
 .indivitualPage {
   border-radius: 50%;
@@ -110,15 +129,236 @@ body {
 
 }
 
-.golden{
- color: rgb(250 202 21);
+.golden {
+  color: rgb(250 202 21);
 }
 
-@media(max-width :600px){
-  .footerIcons{
+@media(max-width :600px) {
+  .footerIcons {
     justify-content: center;
     width: 11rem;
     margin-right: auto;
     margin-left: auto;
+  }
+}
+
+.heroChildOneHold {
+  height: 38rem;
+  width: 100%;
+}
+
+.heroChildHold2 {
+  width: 100%;
+  height: 38rem;
+  background: linear-gradient(180deg, rgba(205, 205, 205, 0.6) 0%, rgba(156, 154, 154, 0.2) 50%, rgba(205, 205, 205, 0) 100%);
+}
+
+
+.herobg2 {
+  background: rgba(196, 196, 196, 0.414);
+}
+
+.HeroParenTHold {
+  background-color: rgba(196, 196, 196, 0.3);
+
+}
+
+.alice-carousel__stage-item {
+  height: 13rem !important;
+  margin-left: 1rem !important;
+  margin-right: 1rem !important;
+  margin-top: 0.5rem !important;
+}
+
+@media(max-width:700px) {
+
+  .alice-carousel__stage-item {
+    margin-left: 0.27rem !important;
+    margin-right: 0rem !important;
+  }
+}
+
+.tableHeaderChild1 {
+  width: 46%;
+}
+
+.w80 {
+  width: 83% !important;
+
+  height: 0.1rem !important;
+}
+
+.cryptoDataMainTable {
+  width: 84%;
+}
+
+.greyBackground {
+  background: rgba(196, 196, 196, 0.414);
+
+}
+
+.greyBorder {
+  border-color: rgba(196, 196, 196, 0.414);
+}
+
+.navbarr2 {
+  height: 6rem;
+  margin-bottom: 0.01rem;
+  background-color: rgb(255, 255, 255);
+}
+
+
+.coinDetailCarouselHold {
+  width: 48%;
+  border-radius: 20px;
+  box-shadow: 8px 8px 8px #ebe4e4, -8px -8px 8px #fdfcfc;
+  height: 15rem;
+
+}
+
+@media(max-width:650px) {
+  .coinDetailCarouselHold {
+    width: 99%;
+  }
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  display: none !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #000000 !important;
+}
+
+.swiperCaro {
+  padding-left: 1rem !important;
+}
+
+.w40Percent {
+  width: 40%;
+}
+
+.coinDetailDivider {
+  width: 0.1rem;
+}
+
+.coinDetailStat1Hold {}
+
+.coindDetailStats1Hold {
+  box-shadow: 8px 8px 8px #ebe4e4, -8px -8px 8px #fdfcfc;
+  width: 90%;
+  margin-right: auto;
+  height: 12rem;
+  margin-left: auto;
+  border-radius: 20px;
+}
+
+.statHeading {
+  font-size: 1.65rem;
+
+}
+
+.w37percent {
+  width: 37%;
+}
+
+@media(max-width:600px) {
+  .w37percent {
+    width: 100%;
+  }
+}
+
+.w48percent {
+  width: 48%;
+}
+
+.svg {
+  width: 3.25em;
+  transform-origin: center;
+  animation: rotate4 2s linear infinite;
+}
+
+.circle {
+  fill: none;
+  stroke: hsl(214, 97%, 59%);
+  stroke-width: 2;
+  stroke-dasharray: 1, 200;
+  stroke-dashoffset: 0;
+  stroke-linecap: round;
+  animation: dash4 1.5s ease-in-out infinite;
+}
+
+@keyframes rotate4 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes dash4 {
+  0% {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+  }
+
+  50% {
+    stroke-dasharray: 90, 200;
+    stroke-dashoffset: -35px;
+  }
+
+  100% {
+    stroke-dashoffset: -125px;
+  }
+}
+
+.cooinDetailChartHold {
+  height: 80vh;
+  width: 65%;
+  box-shadow: 3px 6px 8px #ebe4e4, -8px -8px 8px #fdfcfc;
+  border-radius: 12px;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.boxsh2 {
+  box-shadow: 3px 6px 8px #ebe4e4, -8px -8px 8px #fdfcfc;
+}
+
+.statsCardHold {
+  height: auto;
+  width: 23%;
+}
+
+.w80Perc {
+  width: 74%;
+}
+
+.height1 {
+  height: 0.1rem;
+  width: 90%;
+}
+
+@media(max-width :700px) {
+  .statsCardHold {
+    width: 92% !important;
+    margin-top: 2.5rem;
+  }
+
+  .cooinDetailChartHold {
+    width: 100% !important;
+  }
+}
+
+
+@media(max-width :780px) {
+  .statsCardHold {
+    width: 46%;
+    margin-top: 4rem;
+  }
+}
+
+@media(max-width : 1300px) {
+  .coindDetailStats1Hold {
+    width: 98%;
   }
 }
