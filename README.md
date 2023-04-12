@@ -7,7 +7,7 @@ A crypto tracker web app built using =>
 - TS 
 - redux-toolkit 
 - tailwind.
-- 
+ 
 with the home page and coin detail page. 
 
  ## TOP FEATURES 
