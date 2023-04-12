@@ -1,3 +1,20 @@
+
+Submission for zapit project built with next js, typescript and tailwind
+
+- I improvised the ui a lot made it much more attractive and added many features. 
+-Added a news section. And upon clicking on an article the user is redirected to the article link 
+-Top 10 coins section
+-Pagination with 4 pages
+-Filtering out on category between all coins, metaverse, and gaming category coins.
+- search filter to search for coins
+- sorting from low to high and high to low based on current price 
+- added a favourites section for the user to bookmark coins and they get added in a list with state management using redux, added both star marking the coins as well as even removing it.
+- added currency  switching between usd and inr
+- improvised the navbar, table, as well as the bottom socials section
+
+Time take 1 and half day
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
