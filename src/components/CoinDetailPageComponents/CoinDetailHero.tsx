@@ -138,7 +138,7 @@ const CoinDetailHero = (props: any) => {
 
     useEffect(() => {
         fetchDataHandler();
-    }, [fetchDataHandler])
+    }, [])
 
 
 
@@ -150,7 +150,7 @@ const CoinDetailHero = (props: any) => {
                 {coinDetailData && coinDetailData.market_data && <>
 
                     <nav className="container interFont lg:ml-20">
-                        <ol className="list-reset py-4 pl-4 rounded flex bg-grey-light text-grey">
+                        <ol className="list-reset py-4 pl-1 rounded flex bg-grey-light text-grey">
                             <li className="px-2 text-gray-400"><a className="no-underline text-indigo">Cryptocurrencies</a></li>
                             <li>/</li>
                             <li className="px-2 text-gray-400"><a className="no-underline text-indigo">Coins</a></li>
