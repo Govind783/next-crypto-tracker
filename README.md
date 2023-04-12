@@ -1,12 +1,12 @@
 
-Show me a better crypto tracker in terms of featues, functiopnalities and ui ux, I'll wait 😎, Jk
+Show me a better crypto tracker in terms of featues, functiopnalities and ui ux, I'll wait 😎 (Jk)
 
 A crypto tracker web app built using next js, TS, redux-toolkit and tailwind.
 with the home page and coin detail page. 
 features => 
--Top 10 coins section
--Pagination with 4 pages, 20 coins on each page
--Filtering out on category between all coins, metaverse, and gaming category coins.
+- Top 10 coins section
+- Pagination with 4 pages, 20 coins on each page
+- Filtering out on category between all coins, metaverse, and gaming category coins.
 - search filter to search for coins
 - sorting from low to high and high to low based on current price 
 - added a favourites section for the user to bookmark coins and they get added in a list with state management using redux, added both star marking the coins as well as even removing it.
