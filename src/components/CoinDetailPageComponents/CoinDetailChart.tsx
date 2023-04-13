@@ -180,14 +180,14 @@ const CoinDetailChart = (props: any) => {
                     <div className='bg-gray-100 height1 w99 mx-auto'></div>
 
                     <div className='flex justify-between w80Perc gap-2'>
-                        <p className='text-gray-400'>24 High</p>
+                        <p className='text-gray-400'>All Time High</p>
                         <p className='font-semibold'> ${specificCrytpCoinData.market_data.ath.usd.toLocaleString()} </p>
                     </div>
 
                     <div className='bg-gray-100 height1 w99 mx-auto'></div>
 
                     <div className='flex justify-between w80Perc gap-2'>
-                        <p className='text-gray-400'>24 Low</p>
+                        <p className='text-gray-400'>All Time Low</p>
                         <p className='font-semibold'> ${specificCrytpCoinData.market_data.atl.usd.toLocaleString()} </p>
                     </div>
 

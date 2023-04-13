@@ -219,6 +219,8 @@ body {
 @media(max-width:650px) {
   .coinDetailCarouselHold {
     width: 99%;
+    padding-left: 1.4rem;
+    border-radius: 6px;
   }
 }
 
