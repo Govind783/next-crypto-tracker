@@ -23,7 +23,9 @@ with the home page and coin detail page.
 - tailwind for styling
 - and yes fully responsive
 
+
 DO STAR THE REPO 🌟
+
 
 Image preview, Home page => 
 
