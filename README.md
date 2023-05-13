@@ -50,6 +50,10 @@ Image preview, Home page =>
 ![Homepage](https://live.staticflickr.com/65535/52813202904_10e3083c1e_c.jpg)
 
 
+
+Resposive version =>
+
+
 ![Homepage](https://live.staticflickr.com/65535/52813006546_760151c627_w.jpg)
 
 
