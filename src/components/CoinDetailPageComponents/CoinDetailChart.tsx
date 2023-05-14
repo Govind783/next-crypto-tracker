@@ -92,7 +92,9 @@ const CoinDetailChart = (props: any) => {
                         label: 'Coin Price',
                         data: chartData,
                         borderColor: 'red',
-                        fill: false
+                        fill: false,
+                        pointHitRadius: 10
+
                     }]
                 },
                 options: {
