@@ -23,6 +23,10 @@ with the home page and coin detail page.
 - tailwind for styling
 - and yes fully responsive
 
+
+DO STAR THE REPO 🌟
+
+
 Image preview, Home page => 
 
 ![Homepage](https://live.staticflickr.com/65535/52813460063_a22921bda4_c.jpg)
@@ -46,6 +50,10 @@ Image preview, Home page =>
 ![Homepage](https://live.staticflickr.com/65535/52813202904_10e3083c1e_c.jpg)
 
 
+
+Resposive version =>
+
+
 ![Homepage](https://live.staticflickr.com/65535/52813006546_760151c627_w.jpg)
 
 
@@ -67,12 +75,7 @@ Coin Deatil Page =>
 
 
 
-
-
-
-
-
-
+DO STAR THE REPO 🌟
 
 
 
